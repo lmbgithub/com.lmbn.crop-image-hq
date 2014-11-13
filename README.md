@@ -1,18 +1,17 @@
 # Crop Image HQ
-==============
 
 This is a simple MacOSX Automator Action for cropping image in high quality,  the idea is to replace  the builtin "crop image" action which doesn't let select image quality.
 It only generates jpg files.  It was created in Objective-C.
 
 
-## Installations
+### Installations
 
 1. Download  Crop Image HQ.action
 2. open Automator
 3. in the menu File > import actions and select the file.
 
 
-## Usage
+### Usage
 
 The action will be under the Photos category as "Crop image HQ".  I use it as a service for quick image edition. 
 
@@ -29,7 +28,7 @@ if the specified width or height is longer than the actual image size, it will l
 
 
 
-## Thanks to
+### Thanks to
 
 The icon is borrowed from the imageoptim,  this is a small of tribute for a great and useful app https://imageoptim.com/.
 
