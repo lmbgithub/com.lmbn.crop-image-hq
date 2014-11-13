@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A070782C1A1462B50092004E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A070782A1A1462B50092004E /* InfoPlist.strings */; };
+		A070782F1A1462B50092004E /* Crop_image_HQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A070782E1A1462B50092004E /* Crop_image_HQ.m */; };
+		A07078321A1462B50092004E /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = A07078301A1462B50092004E /* main.xib */; };
+		A070783A1A1464150092004E /* LabelTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A07078391A1464150092004E /* LabelTransformer.m */; };
+		A070783C1A14641B0092004E /* icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = A070783B1A14641B0092004E /* icons.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A07078251A1462B50092004E /* Crop image HQ.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crop image HQ.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07078291A1462B50092004E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A070782B1A1462B50092004E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A070782D1A1462B50092004E /* Crop_image_HQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crop_image_HQ.h; sourceTree = "<group>"; };
+		A070782E1A1462B50092004E /* Crop_image_HQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crop_image_HQ.m; sourceTree = "<group>"; };
+		A07078311A1462B50092004E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/main.xib; sourceTree = "<group>"; };
+		A07078381A1464140092004E /* LabelTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelTransformer.h; sourceTree = "<group>"; };
+		A07078391A1464150092004E /* LabelTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelTransformer.m; sourceTree = "<group>"; };
+		A070783B1A14641B0092004E /* icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icons.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A07078211A1462B50092004E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A070781B1A1462B50092004E = {
+			isa = PBXGroup;
+			children = (
+				A07078271A1462B50092004E /* Crop image HQ */,
+				A07078261A1462B50092004E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A07078261A1462B50092004E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A07078251A1462B50092004E /* Crop image HQ.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A07078271A1462B50092004E /* Crop image HQ */ = {
+			isa = PBXGroup;
+			children = (
+				A07078381A1464140092004E /* LabelTransformer.h */,
+				A07078391A1464150092004E /* LabelTransformer.m */,
+				A070782D1A1462B50092004E /* Crop_image_HQ.h */,
+				A070782E1A1462B50092004E /* Crop_image_HQ.m */,
+				A07078301A1462B50092004E /* main.xib */,
+				A07078281A1462B50092004E /* Supporting Files */,
+			);
+			path = "Crop image HQ";
+			sourceTree = "<group>";
+		};
+		A07078281A1462B50092004E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A070783B1A14641B0092004E /* icons.icns */,
+				A07078291A1462B50092004E /* Info.plist */,
+				A070782A1A1462B50092004E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A07078241A1462B50092004E /* Crop image HQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07078351A1462B50092004E /* Build configuration list for PBXNativeTarget "Crop image HQ" */;
+			buildPhases = (
+				A07078201A1462B50092004E /* Sources */,
+				A07078211A1462B50092004E /* Frameworks */,
+				A07078221A1462B50092004E /* Resources */,
+				A07078231A1462B50092004E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crop image HQ";
+			productName = "Crop image HQ";
+			productReference = A07078251A1462B50092004E /* Crop image HQ.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A070781C1A1462B50092004E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LMBN;
+				TargetAttributes = {
+					A07078241A1462B50092004E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = A070781F1A1462B50092004E /* Build configuration list for PBXProject "Crop image HQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A070781B1A1462B50092004E;
+			productRefGroup = A07078261A1462B50092004E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A07078241A1462B50092004E /* Crop image HQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A07078221A1462B50092004E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A070783C1A14641B0092004E /* icons.icns in Resources */,
+				A07078321A1462B50092004E /* main.xib in Resources */,
+				A070782C1A1462B50092004E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A07078231A1462B50092004E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A07078201A1462B50092004E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A070783A1A1464150092004E /* LabelTransformer.m in Sources */,
+				A070782F1A1462B50092004E /* Crop_image_HQ.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A070782A1A1462B50092004E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A070782B1A1462B50092004E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A07078301A1462B50092004E /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07078311A1462B50092004E /* Base */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A07078331A1462B50092004E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A07078341A1462B50092004E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A07078361A1462B50092004E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Crop image HQ/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		A07078371A1462B50092004E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Crop image HQ/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A070781F1A1462B50092004E /* Build configuration list for PBXProject "Crop image HQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07078331A1462B50092004E /* Debug */,
+				A07078341A1462B50092004E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07078351A1462B50092004E /* Build configuration list for PBXNativeTarget "Crop image HQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07078361A1462B50092004E /* Debug */,
+				A07078371A1462B50092004E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A070781C1A1462B50092004E /* Project object */;
+}
