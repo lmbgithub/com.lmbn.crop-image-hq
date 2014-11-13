@@ -23,7 +23,8 @@ Inputs:
 	* ``scale to width``:  it scales the image to the width and then crops.
 	* ``scale to height``: it scales the image to the height and then crops.
  	* ``scale to biggest side``:  it scales the image so it occupies the biggest side of the desired dimension.
-  
+3. Quality slider:  range from 0.4 to 1.0  jpg quality ( 40 - 100 %)
+
 if the specified width or height is longer than the actual image size, it will leave the side as it is , no black or extra region is added.
 
 
