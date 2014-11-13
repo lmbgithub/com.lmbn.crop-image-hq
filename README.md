@@ -30,7 +30,7 @@ if the specified width or height is longer than the actual image size, it will l
 
 ### Thanks to
 
-The icon is borrowed from the imageoptim,  this is a small of tribute for a great and useful app https://imageoptim.com/.
+The icon is borrowed from the imageoptim,  this is a small tribute for a great and useful app https://imageoptim.com/.
 
 LM.
 
