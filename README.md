@@ -8,7 +8,7 @@ It only generates jpg files.  It was created in Objective-C.
 
 1. Download  Crop Image HQ.action
 2. open Automator
-3. in the menu ``File > import actions `` and select the file.
+3. go to the menu ``File > import actions `` and select the file.
 
 
 ### Usage
