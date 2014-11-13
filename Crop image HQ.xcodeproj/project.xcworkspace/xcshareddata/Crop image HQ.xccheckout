@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B9149ECA-0A36-44BF-9617-7A0884E7E854</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Crop image HQ</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3AD781BB467043C45FD8DB421D1FAF0FE4B532DE</key>
+		<string>https://github.com/lmbgithub/com.lmbn.crop-image-hq.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Crop image HQ.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3AD781BB467043C45FD8DB421D1FAF0FE4B532DE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lmbgithub/com.lmbn.crop-image-hq.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3AD781BB467043C45FD8DB421D1FAF0FE4B532DE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3AD781BB467043C45FD8DB421D1FAF0FE4B532DE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>com.lmbn.crop-image-hq</string>
+		</dict>
+	</array>
+</dict>
+</plist>
